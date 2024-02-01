@@ -1,6 +1,6 @@
 let bubbleSum = 0;
 window.bubbleGame.gameContainer.lines.forEach(getBubbleSum);
-function getBubbleSum(lineOfBubbles){
+function getBubbleSum(item){
 
 	sum += lineOfBubbles.bubbleCount;
 }
